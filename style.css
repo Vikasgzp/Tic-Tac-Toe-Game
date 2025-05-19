@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 80vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    background: #29176a;
+    color: aliceblue;
+    height: 30%;
+    width: 30%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 1, 0.1);
+}
+
+#reset-button,
+#new-button {
+    background: white;
+    height: 30px;
+    width: 100px;
+    margin: 10px 310px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px rgb(88, 7, 237) solid;
+    cursor: pointer; /* Changes the cursor to a pointer when hovered */
+}
+
+#reset-button:hover,
+#new-button:hover {
+    border: none; /* Optional: Remove the border on hover */
+}
+
+#msg {
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size: larger;
+    color: #d13400;
+}
+
+.hide {
+    Display: none; 
+}
